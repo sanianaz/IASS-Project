@@ -22,7 +22,7 @@ var timer = setInterval(comingSoon, 1000);
 function comingSoon()
       {
 var currentDate = new Date().getTime();
-var launchDate = new Date('Dec 18, 2021 00:00:00').getTime();
+var launchDate = new Date('Dec 38, 2022 00:00:00').getTime();
 var duration = launchDate - currentDate;
 var days = Math.floor(duration / (1000 * 60 * 60 * 24));
 var hours = Math.floor((duration % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
